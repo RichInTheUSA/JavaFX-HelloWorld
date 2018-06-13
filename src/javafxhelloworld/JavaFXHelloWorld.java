@@ -2,6 +2,9 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ *
+ *  https://docs.oracle.com/javafx/2/get_started/css.htm
+ *
  */
 package javafxhelloworld;
 
@@ -60,6 +63,9 @@ public class JavaFXHelloWorld extends Application {
         /* Create the scene, and size it */
         Scene scene = new Scene(grid, 400, 300);
         primaryStage.setScene(scene);
+        
+        // Initialize the stylesheet 
+        scene.getStylesheets().add(JavaFXHelloWorld.class.getResource("Login.css").toExternalForm());
         
         // Add a title label above the fields.
         Text scenetitle = new Text("Welcome");

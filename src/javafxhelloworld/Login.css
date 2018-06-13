@@ -3,6 +3,9 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+.root {
+    -fx-background-image: url("background.jpg")
+}
 
 /* 
     Created on : Jun 13, 2018, 5:04:44 PM
